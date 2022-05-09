@@ -21,3 +21,24 @@
     
 
 }
+@media (max-width: 500px) {
+    .profile {
+        &__information {
+            flex-direction: column;
+
+
+         .species, 
+        .status, 
+        .genrer {
+            p {
+                text-transform: uppercase;
+                margin: 10px;
+            }
+
+        }
+
+    }
+   
+
+}
+}

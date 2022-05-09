@@ -26,3 +26,12 @@
         }
     }    
 }
+@media (max-width: 500px) {
+    .gallery__container {
+        flex-direction: column;
+
+        img {
+            margin-bottom: 20px;
+        }
+    }
+}

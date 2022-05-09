@@ -1,0 +1,32 @@
+.bio {
+    
+    &__about {
+        margin-top: 60px;
+        &__title {
+            @extend .titleTemplate;
+        }    
+        p {
+                line-height: 1.8;
+            }
+        
+   
+    }
+   
+    &__origin {
+        @include cardContainer (center, "yes");
+        // border-radius: 20px;
+        // background-color: #fff;
+        // display: flex;
+        // justify-content: space-around;
+        // align-items: center;
+        // padding: 30px 20px;
+        // box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+        margin-top: 20px;
+
+        svg {
+            stroke: #a8a8a8;
+            margin-right: 20px;
+        }
+    }
+
+}
